@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D50F05AC1D975624003C2512 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50F05AB1D975624003C2512 /* Constants.swift */; };
+		D598924B1D8F225F00211C16 /* RecognizeImageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D598924A1D8F225F00211C16 /* RecognizeImageController.swift */; };
+		D5E396941D8DB21700A99802 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E396931D8DB21700A99802 /* AppDelegate.swift */; };
+		D5E396961D8DB21700A99802 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E396951D8DB21700A99802 /* ViewController.swift */; };
+		D5E396991D8DB21700A99802 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5E396971D8DB21700A99802 /* Main.storyboard */; };
+		D5E3969B1D8DB21700A99802 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5E3969A1D8DB21700A99802 /* Assets.xcassets */; };
+		D5E3969E1D8DB21700A99802 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5E3969C1D8DB21700A99802 /* LaunchScreen.storyboard */; };
+		D5E396A91D8DB21700A99802 /* OpenALPRExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E396A81D8DB21700A99802 /* OpenALPRExampleTests.swift */; };
+		D5E396B41D8DB21700A99802 /* OpenALPRExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E396B31D8DB21700A99802 /* OpenALPRExampleUITests.swift */; };
+		D5E396C21D8DB2C400A99802 /* RecognizeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E396C11D8DB2C400A99802 /* RecognizeController.swift */; };
+		F85DB83403CEBCE55BC3F8C3 /* Pods_OpenALPRExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A5FD84E939FA08878B04833 /* Pods_OpenALPRExample.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5E396A51D8DB21700A99802 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5E396881D8DB21700A99802 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5E3968F1D8DB21700A99802;
+			remoteInfo = OpenALPRExample;
+		};
+		D5E396B01D8DB21700A99802 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5E396881D8DB21700A99802 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5E3968F1D8DB21700A99802;
+			remoteInfo = OpenALPRExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A8CA09FD74A9195EFB0FD53 /* Pods-OpenALPRExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenALPRExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpenALPRExample/Pods-OpenALPRExample.debug.xcconfig"; sourceTree = "<group>"; };
+		5A5FD84E939FA08878B04833 /* Pods_OpenALPRExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenALPRExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6405F3C21A365562B5311E09 /* Pods-OpenALPRExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenALPRExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenALPRExample/Pods-OpenALPRExample.release.xcconfig"; sourceTree = "<group>"; };
+		D50F05AB1D975624003C2512 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D598924A1D8F225F00211C16 /* RecognizeImageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecognizeImageController.swift; sourceTree = "<group>"; };
+		D5E396901D8DB21700A99802 /* OpenALPRExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenALPRExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5E396931D8DB21700A99802 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D5E396951D8DB21700A99802 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D5E396981D8DB21700A99802 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5E3969A1D8DB21700A99802 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5E3969D1D8DB21700A99802 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D5E3969F1D8DB21700A99802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5E396A41D8DB21700A99802 /* OpenALPRExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenALPRExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5E396A81D8DB21700A99802 /* OpenALPRExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenALPRExampleTests.swift; sourceTree = "<group>"; };
+		D5E396AA1D8DB21700A99802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5E396AF1D8DB21700A99802 /* OpenALPRExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenALPRExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5E396B31D8DB21700A99802 /* OpenALPRExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenALPRExampleUITests.swift; sourceTree = "<group>"; };
+		D5E396B51D8DB21700A99802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5E396C11D8DB2C400A99802 /* RecognizeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecognizeController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5E3968D1D8DB21700A99802 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F85DB83403CEBCE55BC3F8C3 /* Pods_OpenALPRExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E396A11D8DB21700A99802 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E396AC1D8DB21700A99802 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CC7CA07E4292A2C8A1FBF67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A5FD84E939FA08878B04833 /* Pods_OpenALPRExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A3666A166BCEB87E0B665F99 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A8CA09FD74A9195EFB0FD53 /* Pods-OpenALPRExample.debug.xcconfig */,
+				6405F3C21A365562B5311E09 /* Pods-OpenALPRExample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D5E396871D8DB21700A99802 = {
+			isa = PBXGroup;
+			children = (
+				D5E396921D8DB21700A99802 /* OpenALPRExample */,
+				D5E396A71D8DB21700A99802 /* OpenALPRExampleTests */,
+				D5E396B21D8DB21700A99802 /* OpenALPRExampleUITests */,
+				D5E396911D8DB21700A99802 /* Products */,
+				A3666A166BCEB87E0B665F99 /* Pods */,
+				7CC7CA07E4292A2C8A1FBF67 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D5E396911D8DB21700A99802 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5E396901D8DB21700A99802 /* OpenALPRExample.app */,
+				D5E396A41D8DB21700A99802 /* OpenALPRExampleTests.xctest */,
+				D5E396AF1D8DB21700A99802 /* OpenALPRExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5E396921D8DB21700A99802 /* OpenALPRExample */ = {
+			isa = PBXGroup;
+			children = (
+				D5E396931D8DB21700A99802 /* AppDelegate.swift */,
+				D5E396951D8DB21700A99802 /* ViewController.swift */,
+				D5E396971D8DB21700A99802 /* Main.storyboard */,
+				D5E3969A1D8DB21700A99802 /* Assets.xcassets */,
+				D5E3969C1D8DB21700A99802 /* LaunchScreen.storyboard */,
+				D5E3969F1D8DB21700A99802 /* Info.plist */,
+				D5E396C11D8DB2C400A99802 /* RecognizeController.swift */,
+				D598924A1D8F225F00211C16 /* RecognizeImageController.swift */,
+				D50F05AB1D975624003C2512 /* Constants.swift */,
+			);
+			path = OpenALPRExample;
+			sourceTree = "<group>";
+		};
+		D5E396A71D8DB21700A99802 /* OpenALPRExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5E396A81D8DB21700A99802 /* OpenALPRExampleTests.swift */,
+				D5E396AA1D8DB21700A99802 /* Info.plist */,
+			);
+			path = OpenALPRExampleTests;
+			sourceTree = "<group>";
+		};
+		D5E396B21D8DB21700A99802 /* OpenALPRExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D5E396B31D8DB21700A99802 /* OpenALPRExampleUITests.swift */,
+				D5E396B51D8DB21700A99802 /* Info.plist */,
+			);
+			path = OpenALPRExampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5E3968F1D8DB21700A99802 /* OpenALPRExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5E396B81D8DB21700A99802 /* Build configuration list for PBXNativeTarget "OpenALPRExample" */;
+			buildPhases = (
+				9E3D857C1CA8C8DA60D672C0 /* [CP] Check Pods Manifest.lock */,
+				D5E3968C1D8DB21700A99802 /* Sources */,
+				D5E3968D1D8DB21700A99802 /* Frameworks */,
+				D5E3968E1D8DB21700A99802 /* Resources */,
+				269F259286E3F5D086380145 /* [CP] Embed Pods Frameworks */,
+				120E1D671B2EA07810BCDD30 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenALPRExample;
+			productName = OpenALPRExample;
+			productReference = D5E396901D8DB21700A99802 /* OpenALPRExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5E396A31D8DB21700A99802 /* OpenALPRExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5E396BB1D8DB21700A99802 /* Build configuration list for PBXNativeTarget "OpenALPRExampleTests" */;
+			buildPhases = (
+				D5E396A01D8DB21700A99802 /* Sources */,
+				D5E396A11D8DB21700A99802 /* Frameworks */,
+				D5E396A21D8DB21700A99802 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5E396A61D8DB21700A99802 /* PBXTargetDependency */,
+			);
+			name = OpenALPRExampleTests;
+			productName = OpenALPRExampleTests;
+			productReference = D5E396A41D8DB21700A99802 /* OpenALPRExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D5E396AE1D8DB21700A99802 /* OpenALPRExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5E396BE1D8DB21700A99802 /* Build configuration list for PBXNativeTarget "OpenALPRExampleUITests" */;
+			buildPhases = (
+				D5E396AB1D8DB21700A99802 /* Sources */,
+				D5E396AC1D8DB21700A99802 /* Frameworks */,
+				D5E396AD1D8DB21700A99802 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5E396B11D8DB21700A99802 /* PBXTargetDependency */,
+			);
+			name = OpenALPRExampleUITests;
+			productName = OpenALPRExampleUITests;
+			productReference = D5E396AF1D8DB21700A99802 /* OpenALPRExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5E396881D8DB21700A99802 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Christopher Page";
+				TargetAttributes = {
+					D5E3968F1D8DB21700A99802 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					D5E396A31D8DB21700A99802 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D5E3968F1D8DB21700A99802;
+					};
+					D5E396AE1D8DB21700A99802 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D5E3968F1D8DB21700A99802;
+					};
+				};
+			};
+			buildConfigurationList = D5E3968B1D8DB21700A99802 /* Build configuration list for PBXProject "OpenALPRExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5E396871D8DB21700A99802;
+			productRefGroup = D5E396911D8DB21700A99802 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5E3968F1D8DB21700A99802 /* OpenALPRExample */,
+				D5E396A31D8DB21700A99802 /* OpenALPRExampleTests */,
+				D5E396AE1D8DB21700A99802 /* OpenALPRExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5E3968E1D8DB21700A99802 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5E3969E1D8DB21700A99802 /* LaunchScreen.storyboard in Resources */,
+				D5E3969B1D8DB21700A99802 /* Assets.xcassets in Resources */,
+				D5E396991D8DB21700A99802 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E396A21D8DB21700A99802 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E396AD1D8DB21700A99802 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		120E1D671B2EA07810BCDD30 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpenALPRExample/Pods-OpenALPRExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		269F259286E3F5D086380145 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpenALPRExample/Pods-OpenALPRExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E3D857C1CA8C8DA60D672C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5E3968C1D8DB21700A99802 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D50F05AC1D975624003C2512 /* Constants.swift in Sources */,
+				D5E396961D8DB21700A99802 /* ViewController.swift in Sources */,
+				D5E396941D8DB21700A99802 /* AppDelegate.swift in Sources */,
+				D598924B1D8F225F00211C16 /* RecognizeImageController.swift in Sources */,
+				D5E396C21D8DB2C400A99802 /* RecognizeController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E396A01D8DB21700A99802 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5E396A91D8DB21700A99802 /* OpenALPRExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E396AB1D8DB21700A99802 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5E396B41D8DB21700A99802 /* OpenALPRExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5E396A61D8DB21700A99802 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5E3968F1D8DB21700A99802 /* OpenALPRExample */;
+			targetProxy = D5E396A51D8DB21700A99802 /* PBXContainerItemProxy */;
+		};
+		D5E396B11D8DB21700A99802 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5E3968F1D8DB21700A99802 /* OpenALPRExample */;
+			targetProxy = D5E396B01D8DB21700A99802 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D5E396971D8DB21700A99802 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5E396981D8DB21700A99802 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D5E3969C1D8DB21700A99802 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5E3969D1D8DB21700A99802 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5E396B61D8DB21700A99802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5E396B71D8DB21700A99802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5E396B91D8DB21700A99802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A8CA09FD74A9195EFB0FD53 /* Pods-OpenALPRExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OpenALPRExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = parksnap.OpenALPRExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+			};
+			name = Debug;
+		};
+		D5E396BA1D8DB21700A99802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6405F3C21A365562B5311E09 /* Pods-OpenALPRExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OpenALPRExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = parksnap.OpenALPRExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+			};
+			name = Release;
+		};
+		D5E396BC1D8DB21700A99802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OpenALPRExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = parksnap.OpenALPRExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenALPRExample.app/OpenALPRExample";
+			};
+			name = Debug;
+		};
+		D5E396BD1D8DB21700A99802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OpenALPRExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = parksnap.OpenALPRExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenALPRExample.app/OpenALPRExample";
+			};
+			name = Release;
+		};
+		D5E396BF1D8DB21700A99802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OpenALPRExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = parksnap.OpenALPRExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OpenALPRExample;
+			};
+			name = Debug;
+		};
+		D5E396C01D8DB21700A99802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OpenALPRExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = parksnap.OpenALPRExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OpenALPRExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5E3968B1D8DB21700A99802 /* Build configuration list for PBXProject "OpenALPRExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5E396B61D8DB21700A99802 /* Debug */,
+				D5E396B71D8DB21700A99802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5E396B81D8DB21700A99802 /* Build configuration list for PBXNativeTarget "OpenALPRExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5E396B91D8DB21700A99802 /* Debug */,
+				D5E396BA1D8DB21700A99802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5E396BB1D8DB21700A99802 /* Build configuration list for PBXNativeTarget "OpenALPRExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5E396BC1D8DB21700A99802 /* Debug */,
+				D5E396BD1D8DB21700A99802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5E396BE1D8DB21700A99802 /* Build configuration list for PBXNativeTarget "OpenALPRExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5E396BF1D8DB21700A99802 /* Debug */,
+				D5E396C01D8DB21700A99802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5E396881D8DB21700A99802 /* Project object */;
+}
