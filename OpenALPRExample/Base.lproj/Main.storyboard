@@ -122,7 +122,7 @@
                     <navigationItem key="navigationItem" title="Recognize Image View" id="nep-Yn-uLd"/>
                     <connections>
                         <outlet property="colorTextField" destination="6C5-Ns-yTt" id="VUs-EE-oi6"/>
-                        <outlet property="imageView" destination="Ycf-Xv-4ne" id="rfR-XN-jG8"/>
+                        <outlet property="imageView" destination="Ycf-Xv-4ne" id="fFp-IC-tbA"/>
                         <outlet property="loadImageButton" destination="91F-ax-KZX" id="zi5-1P-XD3"/>
                         <outlet property="makemodelTextField" destination="qG0-b2-CFH" id="VJO-5X-AWB"/>
                         <outlet property="plateTextField" destination="Uvo-O1-ZYp" id="4tu-QJ-xAB"/>

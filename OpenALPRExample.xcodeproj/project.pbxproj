@@ -16,7 +16,6 @@
 		D5E3969E1D8DB21700A99802 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5E3969C1D8DB21700A99802 /* LaunchScreen.storyboard */; };
 		D5E396A91D8DB21700A99802 /* OpenALPRExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E396A81D8DB21700A99802 /* OpenALPRExampleTests.swift */; };
 		D5E396B41D8DB21700A99802 /* OpenALPRExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E396B31D8DB21700A99802 /* OpenALPRExampleUITests.swift */; };
-		D5E396C21D8DB2C400A99802 /* RecognizeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E396C11D8DB2C400A99802 /* RecognizeController.swift */; };
 		F85DB83403CEBCE55BC3F8C3 /* Pods_OpenALPRExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A5FD84E939FA08878B04833 /* Pods_OpenALPRExample.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,7 +55,6 @@
 		D5E396AF1D8DB21700A99802 /* OpenALPRExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenALPRExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5E396B31D8DB21700A99802 /* OpenALPRExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenALPRExampleUITests.swift; sourceTree = "<group>"; };
 		D5E396B51D8DB21700A99802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D5E396C11D8DB2C400A99802 /* RecognizeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecognizeController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,7 +131,6 @@
 				D5E3969A1D8DB21700A99802 /* Assets.xcassets */,
 				D5E3969C1D8DB21700A99802 /* LaunchScreen.storyboard */,
 				D5E3969F1D8DB21700A99802 /* Info.plist */,
-				D5E396C11D8DB2C400A99802 /* RecognizeController.swift */,
 				D598924A1D8F225F00211C16 /* RecognizeImageController.swift */,
 				D50F05AB1D975624003C2512 /* Constants.swift */,
 			);
@@ -344,7 +341,6 @@
 				D5E396961D8DB21700A99802 /* ViewController.swift in Sources */,
 				D5E396941D8DB21700A99802 /* AppDelegate.swift in Sources */,
 				D598924B1D8F225F00211C16 /* RecognizeImageController.swift in Sources */,
-				D5E396C21D8DB2C400A99802 /* RecognizeController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
